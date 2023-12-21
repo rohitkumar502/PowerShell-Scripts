@@ -75,8 +75,6 @@ ForEach($Site in $SiteColl)
 }
 
 
-#Read more: https://www.sharepointdiary.com/2013/08/enable-activate-feature-on-all-sites-in-sharepoint.html#ixzz7VGcLBT4O
-
 ## Setting storage qouta of a site 
 
 Connect-SPOService https://fastekart-admin.sharepoint.com/ -Credential Get-Credential
